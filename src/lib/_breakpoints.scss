@@ -1,0 +1,70 @@
+@media (max-width: 768px) {}
+
+
+@media (min-width: 780px) {
+
+    body {
+        margin: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    p {
+        margin: $half_marg;
+    }
+
+    h1 {
+        font-size: $f-xl;
+    }
+
+    h2 {
+        font-size: $f-lg;
+    }
+
+    h3,
+    a {
+        font-size: $font;
+    }
+
+    p {
+        font-size: $f-sm;
+    }
+
+    .butt {
+        margin: 0 25%;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    p {
+        margin: $lg_marg;
+    }
+
+    h1 {
+        font-size: $f-xxl;
+    }
+
+    h2 {
+        font-size: $f-xl;
+    }
+
+    h3,
+    a {
+        font-size: $f-lg;
+    }
+
+    p {
+        font-size: $font;
+    }
+
+    .butt {
+        margin: 0 25%;
+    }
+}
