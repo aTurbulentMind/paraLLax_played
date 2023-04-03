@@ -1,6 +1,7 @@
 <script>
 	let scroll;
 	let speed = 2;
+	let speed_2 = -2;
 	let test = -0.5;
 	let test_2 = 1;
 </script>
@@ -9,47 +10,37 @@
 <body>
 	<h1>{scroll}</h1>
 	<section>
-		<!--<div class="box pin" />
-		
-		<div
-			class="box"
-			style:transform={`translate3d(0, ${scroll * speed}px, 0)`}
-			style:background="teal"
-		/>
+		<div class="box test" style:transform={`translate3d( ${scroll}px, 0, 0)`} />
+		<div class="box test" style:transform={`translate3d( ${scroll}px,0, 0)`} />
+		<div class="box test" style:transform={`translate3d( ${scroll}px,0, 0)`} />
+		<div class="box empty" />
 
-		<div
-			class="box"
-			style:transform={`translate3d(20px, ${scroll / 0.5}px, 0)`}
-			style:background="blue"
-		/>
-		<div
-			class="box"
-			style:transform={`translate3d( ${scroll * test}px,0, 0)`}
-			style:background="purple"
-		/>
-		<div
-			class="box"
-			style:transform={`translate3d( ${scroll * test_2}px,${scroll * -2}px, 0)`}
-			style:background="orange"
-		/>
-
-		<div
-			class="box"
-			style:transform={`translate3d(0, ${scroll * -0.5}px, 0)`}
-			style:background="red"
-		/>
-	
-	-->
-		<div class="box" />
+		<div class="box l_b" style:transform={`translate3d(0, ${scroll * -1}px, 0)`} />
+		<div class="box c_b" style:transform={`translate3d(15vw, ${scroll * -1}px, 0)`} />
+		<div class="box r_b" style:transform={`translate3d(33vw, ${scroll * -1}px, 0)`} />
+		<div class="box empty" />
 		<div class="box empty" />
 		<div class="box" />
 		<div class="box" />
 		<div class="box" />
+		<div class="box test" style:transform={`translate3d(0, ${scroll * speed_2}px, 0)`} />
+		<div class="box test" style:transform={`translate3d(0, ${scroll * speed_2}px, 0)`} />
 		<div class="box" />
-		<div class="box empty" />
 		<div class="box" />
-		<div class="box" />
+		<div class="box test" style:transform={`translate3d(0, ${scroll * speed_2}px, 0)`} />
+		<div class="box test" style:transform={`translate3d(0, ${scroll * speed_2}px, 0)`} />
 	</section>
+
+	<!--
+		<div class="box pin" />
+		<div class="box empty" />
+		style:transform={`translate3d(0, ${scroll * -0.5}px, 0)`}
+		style:transform={`translate3d(20px, ${scroll / 0.5}px, 0)`}
+		style:transform={`translate3d(0, ${scroll * speed}px, 0)`}
+		style:transform={`translate3d( ${scroll * test}px,0, 0)`}
+		style:transform={`translate3d( ${scroll * test_2}px,${scroll * -2}px, 0)`}
+		style:transform={`translate3d(66vw, ${scroll * -0.5}px, 0)`}
+	-->
 </body>
 
 <!--svelte-ignore css-unused-selector -->
@@ -91,5 +82,24 @@
 
 	.empty {
 		background: transparent;
+	}
+
+	.l_b {
+		background: red;
+		width: 66vw;
+	}
+
+	.c_b {
+		background: chartreuse;
+		width: 66vw;
+	}
+
+	.r_b {
+		background: rgb(179, 109, 5);
+		width: 66vw;
+	}
+
+	.test {
+		background: rgb(0, 255, 255);
 	}
 </style>
