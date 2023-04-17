@@ -1,0 +1,45 @@
+import{S as Ie,i as Ge,s as qe,M as Pe,k as s,a as d,r as Y,l as a,m as h,h as i,c as g,u as N,E as f,p as e,b as Me,F as t,G as De,n as Se,N as je}from"../chunks/index.17d87de4.js";const{window:le}=je;function Fe($){let y=!1,A=()=>{y=!1},n,m,r,p,u,C,I,v,w,ie,B,G,_,oe,L,q,x,ce,X,P,b,he,z,M,k,de,J,l,D,K,Q,j,R,U,H,ge,W,F,Z,ee,V,te,se,E,ue,ae,T,re,ne,me;return Pe($[1]),{c(){m=s("body"),r=s("section"),p=s("div"),u=s("img"),I=d(),v=s("div"),w=s("img"),B=d(),G=s("div"),_=s("img"),L=d(),q=s("div"),x=s("img"),X=d(),P=s("div"),b=s("img"),z=d(),M=s("div"),k=s("img"),J=d(),l=s("div"),D=s("p"),K=Y(`Heather Anne Campbell, a passionate gamer with an unwavering love for combat, has had quite\r
+				the adventurous journey that ultimately led her to co-hosting the wildly popular Get Played\r
+				podcast. Growing up, Heather was always captivated by video games, and she spent countless\r
+				hours honing her skills and achieving impressive kill counts in various games.`),Q=d(),j=s("p"),R=Y(`As a young gamer, Heather explored a wide array of gaming genres, but she always found\r
+				herself gravitating towards games that involved intense combat. She thrived in fast-paced,\r
+				action-packed games, and she became known among her friends for her sharp reflexes and\r
+				strategic gameplay. She was the go-to person in her gaming circle for tips on how to get all\r
+				of the kills and dominate the competition.`),U=d(),H=s("img"),W=d(),F=s("p"),Z=Y(`Heather's passion for gaming continued to flourish as she grew older, and she spent\r
+				countless late nights honing her skills and competing in online multiplayer games. She\r
+				became known in the gaming community for her prowess in games like Fortnite, where her love\r
+				for combat and her dedication to achieving high kill counts truly shone. Her exceptional\r
+				gameplay and competitive spirit earned her recognition and respect among her fellow gamers.`),ee=d(),V=s("p"),te=Y(`Heather's gaming journey eventually led her to co-hosting the Get Played podcast, where she\r
+				could share her love for gaming with a wider audience. She brought her infectious\r
+				enthusiasm, sharp insights, and a friendly, happy tone to the podcast, as she shared her\r
+				experiences, strategies, and tips for gaming success. Her deep knowledge of combat-oriented\r
+				games like Fortnite and her passion for achieving high kill counts made her a valuable asset\r
+				to the podcast, and she quickly became a fan favorite among listeners.`),se=d(),E=s("img"),ae=d(),T=s("p"),re=Y(`Heather's love for gaming, particularly her affinity for combat and achieving high kill\r
+				counts, has been a driving force in her life and has ultimately led her to where she is\r
+				today - co-hosting a successful gaming podcast and sharing her passion with fellow gamers\r
+				around the world. Her dedication, skill, and friendly personality continue to make her a\r
+				beloved figure in the gaming community, and she continues to inspire and entertain gamers\r
+				with her enthusiasm for all things gaming, especially Fortnite and other combat-oriented\r
+				games.`),this.h()},l(S){m=a(S,"BODY",{class:!0});var O=h(m);r=a(O,"SECTION",{class:!0});var o=h(r);p=a(o,"DIV",{class:!0});var pe=h(p);u=a(pe,"IMG",{src:!0,alt:!0,class:!0}),pe.forEach(i),I=g(o),v=a(o,"DIV",{class:!0});var ve=h(v);w=a(ve,"IMG",{src:!0,alt:!0,class:!0}),ve.forEach(i),B=g(o),G=a(o,"DIV",{class:!0});var fe=h(G);_=a(fe,"IMG",{src:!0,alt:!0,class:!0}),fe.forEach(i),L=g(o),q=a(o,"DIV",{class:!0});var ye=h(q);x=a(ye,"IMG",{src:!0,alt:!0,class:!0}),ye.forEach(i),X=g(o),P=a(o,"DIV",{class:!0});var we=h(P);b=a(we,"IMG",{src:!0,alt:!0,class:!0}),we.forEach(i),z=g(o),M=a(o,"DIV",{class:!0});var _e=h(M);k=a(_e,"IMG",{src:!0,alt:!0,class:!0}),_e.forEach(i),J=g(o),l=a(o,"DIV",{class:!0});var c=h(l);D=a(c,"P",{class:!0});var xe=h(D);K=N(xe,`Heather Anne Campbell, a passionate gamer with an unwavering love for combat, has had quite\r
+				the adventurous journey that ultimately led her to co-hosting the wildly popular Get Played\r
+				podcast. Growing up, Heather was always captivated by video games, and she spent countless\r
+				hours honing her skills and achieving impressive kill counts in various games.`),xe.forEach(i),Q=g(c),j=a(c,"P",{class:!0});var be=h(j);R=N(be,`As a young gamer, Heather explored a wide array of gaming genres, but she always found\r
+				herself gravitating towards games that involved intense combat. She thrived in fast-paced,\r
+				action-packed games, and she became known among her friends for her sharp reflexes and\r
+				strategic gameplay. She was the go-to person in her gaming circle for tips on how to get all\r
+				of the kills and dominate the competition.`),be.forEach(i),U=g(c),H=a(c,"IMG",{src:!0,alt:!0,class:!0}),W=g(c),F=a(c,"P",{class:!0});var ke=h(F);Z=N(ke,`Heather's passion for gaming continued to flourish as she grew older, and she spent\r
+				countless late nights honing her skills and competing in online multiplayer games. She\r
+				became known in the gaming community for her prowess in games like Fortnite, where her love\r
+				for combat and her dedication to achieving high kill counts truly shone. Her exceptional\r
+				gameplay and competitive spirit earned her recognition and respect among her fellow gamers.`),ke.forEach(i),ee=g(c),V=a(c,"P",{class:!0});var He=h(V);te=N(He,`Heather's gaming journey eventually led her to co-hosting the Get Played podcast, where she\r
+				could share her love for gaming with a wider audience. She brought her infectious\r
+				enthusiasm, sharp insights, and a friendly, happy tone to the podcast, as she shared her\r
+				experiences, strategies, and tips for gaming success. Her deep knowledge of combat-oriented\r
+				games like Fortnite and her passion for achieving high kill counts made her a valuable asset\r
+				to the podcast, and she quickly became a fan favorite among listeners.`),He.forEach(i),se=g(c),E=a(c,"IMG",{src:!0,alt:!0,class:!0}),ae=g(c),T=a(c,"P",{class:!0});var Ee=h(T);re=N(Ee,`Heather's love for gaming, particularly her affinity for combat and achieving high kill\r
+				counts, has been a driving force in her life and has ultimately led her to where she is\r
+				today - co-hosting a successful gaming podcast and sharing her passion with fellow gamers\r
+				around the world. Her dedication, skill, and friendly personality continue to make her a\r
+				beloved figure in the gaming community, and she continues to inspire and entertain gamers\r
+				with her enthusiasm for all things gaming, especially Fortnite and other combat-oriented\r
+				games.`),Ee.forEach(i),c.forEach(i),o.forEach(i),O.forEach(i),this.h()},h(){f(u.src,C="../img/heather.jpg")||e(u,"src",C),e(u,"alt",""),e(u,"class","svelte-46nlx6"),e(p,"class","box svelte-46nlx6"),f(w.src,ie="../img/pew.png")||e(w,"src",ie),e(w,"alt",""),e(w,"class","svelte-46nlx6"),e(v,"class","vox vox1 svelte-46nlx6"),f(_.src,oe="../img/pew_pew.png")||e(_,"src",oe),e(_,"alt",""),e(_,"class","svelte-46nlx6"),e(G,"class","vox vox2 svelte-46nlx6"),f(x.src,ce="../img/pew_pew_pew.png")||e(x,"src",ce),e(x,"alt",""),e(x,"class","svelte-46nlx6"),e(q,"class","vox vox3 svelte-46nlx6"),f(b.src,he="../img/pew.png")||e(b,"src",he),e(b,"alt",""),e(b,"class","svelte-46nlx6"),e(P,"class","vox vox4 svelte-46nlx6"),f(k.src,de="../img/pewpew.png")||e(k,"src",de),e(k,"alt",""),e(k,"class","svelte-46nlx6"),e(M,"class","vox vox5 svelte-46nlx6"),e(D,"class","svelte-46nlx6"),e(j,"class","svelte-46nlx6"),f(H.src,ge="../img/back.jpg")||e(H,"src",ge),e(H,"alt",""),e(H,"class","svelte-46nlx6"),e(F,"class","svelte-46nlx6"),e(V,"class","svelte-46nlx6"),f(E.src,ue="../img/back.jpg")||e(E,"src",ue),e(E,"alt",""),e(E,"class","svelte-46nlx6"),e(T,"class","svelte-46nlx6"),e(l,"class","box host svelte-46nlx6"),e(r,"class","svelte-46nlx6"),e(m,"class","svelte-46nlx6")},m(S,O){Me(S,m,O),t(m,r),t(r,p),t(p,u),t(r,I),t(r,v),t(v,w),t(r,B),t(r,G),t(G,_),t(r,L),t(r,q),t(q,x),t(r,X),t(r,P),t(P,b),t(r,z),t(r,M),t(M,k),t(r,J),t(r,l),t(l,D),t(D,K),t(l,Q),t(l,j),t(j,R),t(l,U),t(l,H),t(l,W),t(l,F),t(F,Z),t(l,ee),t(l,V),t(V,te),t(l,se),t(l,E),t(l,ae),t(l,T),t(T,re),ne||(me=De(le,"scroll",()=>{y=!0,clearTimeout(n),n=setTimeout(A,100),$[1]()}),ne=!0)},p(S,[O]){O&1&&!y&&(y=!0,clearTimeout(n),scrollTo(le.pageXOffset,S[0]),n=setTimeout(A,100))},i:Se,o:Se,d(S){S&&i(m),ne=!1,me()}}}let Ve=400,Te=550,Oe=750,Ae=750,Ce=1200,Ye=924,Ne=850,$e=1100,Be=1200,Le=1650;function Xe($,y,A){let n;typeof window<"u"&&(n=window.scrollY,window.addEventListener("scroll",m));function m(){A(0,n=window.pageYOffset);const p=document.querySelector(".vox1"),u=document.querySelector(".vox2"),C=document.querySelector(".vox3"),I=document.querySelector(".vox4"),v=document.querySelector(".vox5");n>Ve&&n<Ye?p.style.opacity=1:p.style.opacity=0,n>Te&&n<Ne?u.style.opacity=1:u.style.opacity=0,n>Oe&&n<$e?C.style.opacity=1:C.style.opacity=0,n>Ae&&n<Be?I.style.opacity=1:I.style.opacity=0,n>Ce&&n<Le?v.style.opacity=1:v.style.opacity=0}function r(){A(0,n=le.pageYOffset)}return[n,r]}class Je extends Ie{constructor(y){super(),Ge(this,y,Xe,Fe,qe,{})}}export{Je as default};
