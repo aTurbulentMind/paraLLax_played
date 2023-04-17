@@ -1,105 +1,115 @@
-<script>
-	let scroll;
-	let speed = 2;
-	let speed_2 = -2;
-	let test = -0.5;
-	let test_2 = 1;
-</script>
-
-<svelte:window bind:scrollY={scroll} />
 <body>
-	<h1>{scroll}</h1>
-	<section>
-		<div class="box test" style:transform={`translate3d( ${scroll}px, 0, 0)`} />
-		<div class="box test" style:transform={`translate3d( ${scroll}px,0, 0)`} />
-		<div class="box test" style:transform={`translate3d( ${scroll}px,0, 0)`} />
-		<div class="box empty" />
+	<box class="main"
+		><p>
+			That fellow gamer turned out to be my future co-host on the Get Played podcast. We bonded over
+			our mutual love for gaming and our knack for sarcasm. We decided to channel our passion into a
+			podcast where we could share our brutally honest opinions on the latest games, discuss gaming
+			news and trends, and poke fun at the gaming industry's quirks and shortcomings.
+		</p>
+		<p>
+			As our podcast grew in popularity, we landed interviews with game developers, attended gaming
+			conventions, and even got invited to be guest judges on a gaming reality show. Our sarcastic
+			and dry first-person tone became our trademark, and we reveled in our role as the
+			self-appointed "voice of reason" in the gaming community.
+		</p>
+	</box>
 
-		<div class="box l_b" style:transform={`translate3d(0, ${scroll * -1}px, 0)`} />
-		<div class="box c_b" style:transform={`translate3d(15vw, ${scroll * -1}px, 0)`} />
-		<div class="box r_b" style:transform={`translate3d(33vw, ${scroll * -1}px, 0)`} />
-		<div class="box empty" />
-		<div class="box empty" />
-		<div class="box" />
-		<div class="box" />
-		<div class="box" />
-		<div class="box test" style:transform={`translate3d(0, ${scroll * speed_2}px, 0)`} />
-		<div class="box test" style:transform={`translate3d(0, ${scroll * speed_2}px, 0)`} />
-		<div class="box" />
-		<div class="box" />
-		<div class="box test" style:transform={`translate3d(0, ${scroll * speed_2}px, 0)`} />
-		<div class="box test" style:transform={`translate3d(0, ${scroll * speed_2}px, 0)`} />
-	</section>
+	<!--card-->
+	<div class="l_r__block">
+		<img src="img/h_ent.png" alt="" />
+		<div class="l_r__title"><h2>Heather <br /> Campbell</h2></div>
 
-	<!--
-		<div class="box pin" />
-		<div class="box empty" />
-		style:transform={`translate3d(0, ${scroll * -0.5}px, 0)`}
-		style:transform={`translate3d(20px, ${scroll / 0.5}px, 0)`}
-		style:transform={`translate3d(0, ${scroll * speed}px, 0)`}
-		style:transform={`translate3d( ${scroll * test}px,0, 0)`}
-		style:transform={`translate3d( ${scroll * test_2}px,${scroll * -2}px, 0)`}
-		style:transform={`translate3d(66vw, ${scroll * -0.5}px, 0)`}
-	-->
+		<div class="l_r__body">
+			<p>
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam animi reprehenderit vel
+				nulla, soluta impedit.
+			</p>
+
+			<a href="/about/heather/">Learn More</a>
+		</div>
+	</div>
+	<!--end-->
+
+	<!--card-->
+	<div class="l_r__block_l">
+		<img class="img_l" src="img/m_ent.png" alt="" />
+		<div class="l_r__title_l"><h2>Matt <br /> Apadoca</h2></div>
+
+		<div class="l_r__body_l">
+			<p>
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis voluptate odio facilis
+				ducimus aliquam quo distinctio natus quidem neque nemo?
+			</p>
+
+			<a href="/about/matt/">Learn More</a>
+		</div>
+	</div>
+	<!--end-->
+
+	<!--card-->
+	<div class="l_r__block">
+		<img class="img" src="img/n_ent.png" alt="" />
+		<div class="l_r__title"><h2>Nick <br /> Wiger</h2></div>
+
+		<div class="l_r__body">
+			<p>
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum aliquam molestias facilis
+				autem doloremque. Adipisci, amet soluta reprehenderit atque excepturi
+			</p>
+
+			<a href="/about/nick/">Learn More</a>
+		</div>
+	</div>
+	<!--end-->
 </body>
 
-<!--svelte-ignore css-unused-selector -->
-<style>
+<!-- svelte-ignore css-unused-selector -->
+<style lang="scss">
+	@import '../src/lib/basecamp';
 	body {
 		margin-top: 4rem;
 		scroll-behavior: smooth;
-
-		background-image: url(img/back.jpg);
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-position: center;
-		background-size: 100%;
+		transition: transform 0.2s ease-in-out;
+		margin-bottom: 1px;
 	}
 
 	.box {
 		--size: 300px;
-		height: var(--size);
+		height: fit-content;
 		width: 100vw;
-		background: rgb(163, 87, 250);
-		border: 1px solid black;
-		margin-bottom: 1rem;
+		background: $backMain;
+		align-content: center;
+
+		a {
+			p {
+				align-content: center;
+				font-size: $f-lg;
+				margin: 5vh 25vw;
+			}
+		}
 	}
 
-	h1,
-	.box {
-		margin: 0 -8px;
-	}
-	h1 {
-		position: fixed;
-		z-index: 10;
+	//l_r_leted work block
+
+	.l_r__block,
+	.l_r__block_l {
+		margin: $full_marg;
 	}
 
-	.pin {
-		position: fixed;
-		margin-left: -8px;
-		width: 105vw;
+	.l_r__block,
+	.l_r__block_l {
+		.l_r__body,
+		.l_r__body_l {
+			a {
+				margin: $full_marg;
+			}
+		}
 	}
 
-	.empty {
-		background: transparent;
-	}
-
-	.l_b {
-		background: red;
-		width: 66vw;
-	}
-
-	.c_b {
-		background: chartreuse;
-		width: 66vw;
-	}
-
-	.r_b {
-		background: rgb(179, 109, 5);
-		width: 66vw;
-	}
-
-	.test {
-		background: rgb(0, 255, 255);
+	@media only screen and (min-width: 780px) {
+		.l_r__block,
+		.l_r__block_l {
+			margin: 10vh 5vw;
+		}
 	}
 </style>

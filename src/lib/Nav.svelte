@@ -14,23 +14,40 @@
 	<nav class:open={isMenuOpen}>
 		<!--this is the main navigation menu-->
 		<ul>
-			<li on:click={() => (isMenuOpen = false)}>
-				<a href="/contact/">New episodes release on Monday</a>
+			<li on:click={() => (isMenuOpen = false)} on:keydown={() => (isMenuOpen = false)}>
+				<p>New episodes Monday</p>
 			</li>
-			<li on:click={() => (isMenuOpen = false)}>
+
+			<li on:click={() => (isMenuOpen = false)} on:keydown={() => (isMenuOpen = false)}>
 				<a class:current={current === 0} on:click={() => (current = 0)} href="/">Home</a>
 			</li>
-			<li on:click={() => (isMenuOpen = false)}>
-				<a class:current={current === 1} on:click={() => (current = 1)} href="/merch/">Store</a>
+			<li
+				on:click={() => (isMenuOpen = false)}
+				on:keydown={() => (isMenuOpen = false)}
+				class="space"
+			>
+				<a
+					class:current={current === 4}
+					on:click={() => (current = 4)}
+					href="https://www.earwolf.com/show_archive/get-played/">Podcast</a
+				>
 			</li>
-			<li on:click={() => (isMenuOpen = false)}>
+			<li on:click={() => (isMenuOpen = false)} on:keydown={() => (isMenuOpen = false)}>
+				<a
+					class:current={current === 1}
+					on:click={() => (current = 1)}
+					href="https://www.podswag.com/collections/how-did-this-get-played/">Store</a
+				>
+			</li>
+			<li on:click={() => (isMenuOpen = false)} on:keydown={() => (isMenuOpen = false)}>
 				<a class:current={current === 2} on:click={() => (current = 2)} href="/contact">Follow</a>
 			</li>
-			<li on:click={() => (isMenuOpen = false)} class="space">
+			<li
+				on:click={() => (isMenuOpen = false)}
+				on:keydown={() => (isMenuOpen = false)}
+				class="space"
+			>
 				<a class:current={current === 3} on:click={() => (current = 3)} href="/about">About</a>
-			</li>
-			<li on:click={() => (isMenuOpen = false)} class="space">
-				<a class:current={current === 4} on:click={() => (current = 4)} href="/about">Podcast</a>
 			</li>
 		</ul>
 	</nav>
@@ -48,7 +65,7 @@
 	}
 
 	.navbar {
-		background-color: $backTwo;
+		background-color: $textTwo;
 		width: 100%;
 		display: flex;
 		justify-content: space-between;
@@ -56,6 +73,10 @@
 		position: fixed;
 		height: 4rem;
 		z-index: 990;
+
+		a {
+			text-shadow: $text_shadow;
+		}
 	}
 
 	.logo {
@@ -91,6 +112,16 @@
 		margin-bottom: 4vh;
 		list-style: none;
 		font-size: $f-sm;
+
+		li {
+			p {
+				margin-top: 1vh;
+				margin-bottom: 1vh;
+				font-size: $f-sm;
+				color: $highlight;
+				text-shadow: $text_shadow;
+			}
+		}
 	}
 
 	.current {
@@ -124,7 +155,7 @@
 	.burger > div {
 		height: 2px;
 		width: 14px;
-		background-color: $backHallow;
+		background-color: $highlight;
 		position: absolute;
 	}
 
@@ -140,6 +171,15 @@
 		nav {
 			display: block;
 			position: relative;
+			height: 4rem;
+		}
+
+		.navbar {
+			height: 5rem;
+		}
+
+		.logo {
+			margin-left: 1vw;
 		}
 
 		ul {

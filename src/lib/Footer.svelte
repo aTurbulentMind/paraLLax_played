@@ -1,5 +1,5 @@
 <script>
-	import Svg from '../lib/birdy.svelte';
+	import Svg from './insta.svelte';
 	import Disco from '../lib/disco.svelte';
 </script>
 
