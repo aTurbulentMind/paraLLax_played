@@ -11,8 +11,7 @@
 			<li><a href="/">PODCAST</a></li>
 			<li><a href="/">MERCH</a></li>
 		</ul>
-	</footBox>
-	<footBox>
+
 		<ul>
 			<li><a href="/contact/">CONTACT</a></li>
 			<li><a href="/about/">ABOUT</a></li>
@@ -27,6 +26,10 @@
 			<a href="/"><Disco /></a>
 		</socBox>
 	</footBox>
+	<p>
+		Get played is a production of Earwolf. The content found on this website is made out of fan
+		interest and is not a representation of the Get Played podcast or Earwolf productions.
+	</p>
 </div>
 
 <!-- svelte-ignore css-unused-selector -->
@@ -36,7 +39,7 @@
 	.footer {
 		display: grid;
 		background: $gradient;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr 1fr;
 		z-index: 950;
 		position: relative;
@@ -83,11 +86,19 @@
 				}
 			}
 		}
+
+		p {
+			display: grid;
+			grid-row: 2;
+			grid-column: 2;
+		}
 	}
 
 	@media (min-width: 780px) {
 		//foots
 		.footer {
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-template-rows: 1fr 1fr;
 			margin-bottom: 0;
 			footBox {
 				ul {

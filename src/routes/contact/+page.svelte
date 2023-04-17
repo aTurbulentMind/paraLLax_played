@@ -7,20 +7,22 @@
 	<h1>Join us:</h1>
 
 	<div class="box">
-		<Disco />
+		<a href="https://discord.gg/getplayed/"> <Disco /></a>
 		<p>
 			Discord: Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quisquam ut, dolor
 			sapiente veniam odio iusto cum veritatis, tempore nihil incidunt doloremque alias atque nisi
 			animi possimus deleniti asperiores nesciunt!
 		</p>
+		<a href="https://discord.gg/getplayed/">Join us</a>
 	</div>
-
+	<br /><br /><br />
 	<div class="box">
-		<Svg />
+		<a href="https://www.instagram.com/getplayedpod/"><Svg /> </a>
 		<p>
 			Instagram: Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque reiciendis
 			tenetur, modi voluptate quas laudantium distinctio nobis!
 		</p>
+		<a href="https://www.instagram.com/getplayedpod/">Follow us</a>
 	</div>
 </body>
 
@@ -34,6 +36,10 @@
 
 	.box {
 		height: fit-content;
+
+		a {
+			margin: 10% 20%;
+		}
 	}
 
 	@media (max-width: 768px) {

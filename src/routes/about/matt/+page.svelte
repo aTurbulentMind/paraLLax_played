@@ -58,19 +58,19 @@
 		</div>
 		<div
 			class="box flip"
-			style:transform={`translate3d(33vw, ${scroll * -0.5}px, 0) rotate(${scroll * -0.7}deg)`}
+			style:transform={`translate3d(33vw, ${scroll * -0.6}px, 0) rotate(${scroll * -0.7}deg)`}
 		>
 			<img src="../img/flip_roll.png" alt="" />
 		</div>
 		<div
 			class="box flip"
-			style:transform={`translate3d(53vw, ${scroll * -0.6}px, 0) rotate(${scroll * -0.8}deg)`}
+			style:transform={`translate3d(53vw, ${scroll * -0.8}px, 0) rotate(${scroll * -0.8}deg)`}
 		>
 			<img src="../img/flip_roll.png" alt="" />
 		</div>
 		<div
 			class="box flip"
-			style:transform={`translate3d(13vw, ${scroll * -0.8}px, 0) rotate(${scroll * -1.1}deg)`}
+			style:transform={`translate3d(13vw, ${scroll * -1.1}px, 0) rotate(${scroll * -1.1}deg)`}
 		>
 			<img src="../img/flip_roll.png" alt="" />
 		</div>

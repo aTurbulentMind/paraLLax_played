@@ -142,13 +142,11 @@
 <style lang="scss">
 	@import '../src/lib/basecamp';
 
-
-.my-element {
-  background-color: var(--primary-color);
-  height: 100vh;
-}
+	.my-element {
+		background-color: var(--primary-color);
+		height: 100vh;
+	}
 	body {
-		--scroll:${scroll};
 		margin-top: 4rem;
 		scroll-behavior: smooth;
 		transition: transform 0.2s ease-in-out;
@@ -168,7 +166,7 @@
 		h1 {
 			position: fixed;
 			margin-top: 20vh;
-			font-size: $f-xxl;
+			font-size: $f-xl;
 		}
 
 		a {
@@ -182,7 +180,6 @@
 		background: $highlight;
 		margin: 0 -8px 1rem -8px;
 		padding: $pad;
-		
 	}
 
 	.vox {
@@ -252,7 +249,7 @@
 	.bott_box {
 		background-color: $backMain;
 		height: fit-content;
-		transform: translate3d(0, calc(var(--scroll) * -0.35), 0);
+		transform: translate3d(0, calc(var(--scroll) * -0.15), 0);
 
 		@media only screen and (min-width: 768px) {
 			transform: translate3d(0, calc(var(--scroll) * -0.2), 0);
@@ -265,7 +262,7 @@
 	.l_b {
 		background: red;
 		width: 33vw;
-		transform: translate3d(0, calc(var(--scroll) * 0.15), 0);
+		transform: translate3d(0, calc(var(--scroll) * 0.29), 0);
 
 		@media only screen and (min-width: 768px) {
 			transform: translate3d(0, calc(var(--scroll) * 0.35), 0);
@@ -275,7 +272,7 @@
 	.r_b {
 		background: rgb(179, 109, 5);
 		width: 33vw;
-		transform: translate3d(66vw, calc(var(--scroll) * 0.15), 0);
+		transform: translate3d(66vw, calc(var(--scroll) * 0.27), 0);
 
 		@media only screen and (min-width: 768px) {
 			transform: translate3d(66vw, calc(var(--scroll) * 0.25), 0);
@@ -285,7 +282,7 @@
 	.c_b {
 		background: chartreuse;
 		width: 33vw;
-				transform: translate3d(33vw, calc(var(--scroll) * 0.22), 0);
+		transform: translate3d(33vw, calc(var(--scroll) * 0.22), 0);
 
 		@media only screen and (min-width: 768px) {
 			transform: translate3d(33vw, calc(var(--scroll) * 0.35), 0);
@@ -321,10 +318,9 @@
 			height: 50vh;
 		}
 
-		
-	.vox4 {
-		height: fit-content;
-		padding: 12vh 7vw;
-	}
+		.vox4 {
+			height: fit-content;
+			padding: 12vh 7vw;
+		}
 	}
 </style>
