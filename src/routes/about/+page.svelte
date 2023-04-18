@@ -110,6 +110,21 @@
 		.l_r__block,
 		.l_r__block_l {
 			margin: 10vh 5vw;
+
+			img {
+				width: 60vh;
+				height: 60vh;
+			}
+		}
+	}
+
+	@media only screen and (min-width: 1280px) {
+		.l_r__block,
+		.l_r__block_l {
+			img {
+				width: 80vh;
+				height: 80vh;
+			}
 		}
 	}
 </style>

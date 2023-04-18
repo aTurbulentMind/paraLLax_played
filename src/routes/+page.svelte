@@ -32,6 +32,7 @@
 		const vox3 = document.querySelector('.vox3');
 		const vox4 = document.querySelector('.vox4');
 		const vox5 = document.querySelector('.vox5');
+		const vox6 = document.querySelector('.vox6');
 
 		if (scroll > 50 && scroll < 850) {
 			vox1.style.opacity = 1;
@@ -62,6 +63,12 @@
 		} else {
 			vox5.style.opacity = 0;
 		}
+
+		if (scroll > 850 && scroll < 1150) {
+			vox6.style.opacity = 1;
+		} else {
+			vox6.style.opacity = 0;
+		}
 	}
 </script>
 
@@ -70,6 +77,7 @@
 	<!--	<h1>{scroll}</h1>-->
 	<section>
 		<div class="vox vox5" />
+
 		<div
 			class="box hue ent"
 			style:transform={`translate3d(${scroll > 100 ? (scroll - 100) * 1 : 0}px, 0, 0)`}
@@ -92,7 +100,7 @@
 			<p>Nick <br />Wiger</p>
 		</div>
 		<div class="vox vox4"><h2>And this is</h2></div>
-
+		<div class="vox vox6"><img src="img/back.jpg" alt="" /></div>
 		<div class="box host">
 			<p>
 				Are you ready to level up your video game knowledge? Welcome to the Get Played Podcast, the
@@ -150,11 +158,7 @@
 		margin-top: 4rem;
 		scroll-behavior: smooth;
 		transition: transform 0.2s ease-in-out;
-		background-image: url(img/back.jpg);
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-position: center;
-		background-size: 100%;
+		background: $backMain;
 	}
 
 	.box {
@@ -228,6 +232,19 @@
 		top: 0;
 		left: 0;
 		width: 100vw;
+	}
+
+	.vox6 {
+		background-color: $grabber;
+		height: 100vh;
+		top: 0;
+		left: 0;
+		width: 100vw;
+
+		img {
+			height: 100vh;
+			width: 100vw;
+		}
 	}
 
 	.ent {
@@ -321,6 +338,12 @@
 		.vox4 {
 			height: fit-content;
 			padding: 12vh 7vw;
+		}
+
+		.ent {
+			h1 {
+				font-size: $f-xxxl;
+			}
 		}
 	}
 </style>
